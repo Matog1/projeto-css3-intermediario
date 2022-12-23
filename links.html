@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>formatação de links</title>
+
+        <style type="text/css">
+
+            /*target="blank" para abrir o link em outra aba*/
+           a {
+               padding: 5px 10px;
+               text-decoration: none;
+           }
+           /*links não visitados*/
+           a:link { 
+                color: #b9c941;
+           }
+
+           /*links visitados*/
+           a:visited {
+               color: #c0c0c0;
+           }
+
+           /*o link muda de cor quando passar o cursor por cima*/
+           a:hover {
+               color: white;
+               background: black;
+           }
+
+           /*o link muda de cor quando clicamos em cima*/
+           a:active {
+               color: #e4f371;
+           }
+
+        </style>
+    </head>
+        <body>
+
+            <a href="https://www.google.com/" target="blank"> Google </a> |
+
+            <a href="https://www.tecmundo.com.br
+            " target="blank"> Tec Mundo </a> |
+
+            <a href="https://www.nasa.gov
+            " target="blank"> Nasa </a>
+            
+        </body>
+</html>
